@@ -3,6 +3,4 @@
 
 공부했던 몇몇 파일들을 백업한다.
 
-<head>
-  Script
-  </head>
+ >Script
