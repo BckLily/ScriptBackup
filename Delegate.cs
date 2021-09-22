@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 public class InstanceClass<T> where T: InstanceClass<T>, new()
 {
-    private static InstanceClass<T> _instance = null;
-    public static InstanceClass<T> Instance
+    private static T _instance = null;
+    public static T Instance
     {
         get
         {
@@ -35,7 +35,6 @@ public class InstanceClass<T> where T: InstanceClass<T>, new()
     {
         Console.WriteLine($"{this.privateValue}");
     }
-
 
 }
 
