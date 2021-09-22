@@ -4,3 +4,10 @@
 공부했던 몇몇 파일들을 백업한다.
 
  >Script
+ > > Delegate.cs
+### Delegate Make with Generic Class
+
+ > config
+ > > .editorconfig
+### Make All File Encoding with UTF8
+
